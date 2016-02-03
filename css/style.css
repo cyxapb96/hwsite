@@ -1,0 +1,217 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,700);
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Titillium Web";
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.wrapper {
+	width: 1140px;
+	margin: 0 auto;
+	color: #000;
+	padding: 0 20px;
+	text-align: center;
+}
+
+
+.header-box {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	min-height: 94px;
+	background-color: #87509c;
+}
+
+.header {
+	position: relative;
+	padding-top: 57px;
+	text-align: left;
+}
+
+.header .top-menu {
+	position: absolute;
+	list-style: none;
+	text-align: right;
+	right: 0;
+	bottom: 6px;
+	margin: 0;
+	padding: 0;
+}
+
+.header .top-menu .menu-item {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+.header .top-menu .menu-link {
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 6px 17px;
+	font-size: 1em;
+	border-radius: 4px;
+}
+
+.header .top-menu .menu-link:hover,
+.top-menu .active {
+	background-color: #643a79;
+}
+
+.welcome-box {
+	width: 100%;
+	background-color: #87509c;
+	min-height: 596px;
+}
+
+.welcome {
+	padding-top: 240px;
+}
+
+.welcome .title {
+	width: 906px;
+	margin: 0 auto;
+	margin-bottom: 55px;
+	text-align: center;
+	font-size: 2.625em;
+	line-height: 1.2em;
+	color: #f7f3eb;
+	font-weight: 700;
+}
+
+.welcome .work-btn {
+	display: block;
+	width: 293px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	text-align: center;
+	color: #f7f3eb;
+	background-color: #eb7d4b;
+	border-radius: 4px;
+	margin: 0 auto;
+	padding: 28px 0;
+	box-shadow: 0 4px rgba(235, 125, 75, 0.1);	
+}
+
+.welcome .work-btn:hover {
+	background-color: #eb954b;
+	box-shadow: 0px 4px rgba(235, 125, 75, 0.4);
+}
+
+
+
+/* SERVICES */
+.service-box {
+	background-color: #17c2a4;
+	min-height: 747px;
+	padding-top: 100px;
+}
+
+.service .title {
+	font-size: 2.625em;
+	line-height: 0.8em;
+	font-weight: 700;
+	color: #ffffff;
+	margin: 0 auto;
+	margin-bottom: 21px; 
+	width: 474px;
+	text-align: center;
+}
+
+.service .separator {
+	width: 87px;
+	height: 4px;
+	background: url("../images/separator-line.png") no-repeat;
+	margin: 0 auto;
+	margin-bottom: 21px;
+}
+
+.service .description {
+	width: 603px;
+	margin: 0 auto;
+	text-align: center;
+	color: #ffffff;
+	font-size: 1.15em;
+	line-height: 1.5em;
+	margin-bottom: 70px;
+}
+
+.service-item {
+	display: inline-block;
+	width: 200px;
+	padding-top: 160px;
+	text-align: center;
+	vertical-align: top;
+	margin-right: 75px;
+}
+
+.service-item .title {
+	margin: 20px 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 200px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+.service-item .description {
+	max-width: 200px;
+	font-size: 1em;
+}
+
+.service-item.item-1 {
+	background: url(../images/Flag-icon.png) no-repeat 50% 0;
+}
+
+.service-item.item-2 {
+	background: url(../images/Crayon-icon.png) no-repeat 50% 0;
+}
+
+.service-item.item-3 {
+	background: url(../images/Gears-icon.png) no-repeat 50% 0;
+}
+
+.service-item.item-4 {
+	background: url(../images/Rocket-icon.png) no-repeat 50% 0;
+	margin-right: 0;
+}
+
+
+.team-box {
+	background-color: #e7f1f8;
+	min-height: 915px;	
+}
+
+.skills-box {
+	background-color: #ffffff;
+	min-height: 655px;
+}
+
+.portfolio-box {
+	background-color: #ffdd99;
+	min-height: 1423px;
+}
+
+.features-box {
+	background-color: #d74680;
+	min-height: 895px;
+}
+
+.contact-us-box {
+	background-color: #3c5499;
+	min-height: 819px;
+}
+
+.footer-box {
+	background-color: #344b8e;
+	min-height: 112px;
+}
