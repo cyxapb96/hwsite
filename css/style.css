@@ -373,6 +373,10 @@ body {
 	margin-bottom: 55px;
 }
 
+.portfolio .item-box:nth-child(odd){
+	margin-right: 15px;	
+}
+
 .two-col {
 	margin: 0;
 	height: auto;
