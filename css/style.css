@@ -45,7 +45,7 @@ body {
 	color: #ffffff;
 	font-size: 1.15em;
 	line-height: 1.5em;
-	margin-bottom: 70px;
+	margin-bottom: 75px;
 }
 
 .header-box {
@@ -144,9 +144,9 @@ body {
 .item-box {
 	display: inline-block;
 	width: 200px;
-	padding-top: 180px;
 	vertical-align: top;
 	margin-right: 75px;
+	text-align: center;
 }
 
 .item-box .title {
@@ -161,21 +161,27 @@ body {
 }
 
 /* !!! TO DO: Иконки необходимо вытащить из бэкграунда в отдельный див */
-.item-box.item-1 {
-	background: url(../images/Flag-icon.png) no-repeat 50% 0;
+.service .item-1 .photo {
+	background: url(../images/Flag-icon.png) no-repeat 50% 50%;
 }
 
-.item-box.item-2 {
-	background: url(../images/Crayon-icon.png) no-repeat 50% 0;
+.service .item-2 .photo {
+	background: url(../images/Crayon-icon.png) no-repeat 50% 50%;
 }
 
-.item-box.item-3 {
-	background: url(../images/Gears-icon.png) no-repeat 50% 0;
+.service .item-3 .photo {
+	background: url(../images/Gears-icon.png) no-repeat 50% 50%;
 }
 
+.service .item-4 .photo{
+	background: url(../images/Rocket-icon.png) no-repeat 50% 50%;
+}
 .item-box.item-4 {
-	background: url(../images/Rocket-icon.png) no-repeat 50% 0;
 	margin-right: 0;
+}
+
+.service .item-box .photo {
+	margin-bottom: 20px;
 }
 
 
@@ -183,7 +189,7 @@ body {
 /* OUR TEAM */
 .team-box {
 	background-color: #e7f1f8;
-	min-height: 915px;	
+	min-height: 915px;
 }
 
 .team .title {
@@ -199,7 +205,7 @@ body {
 	padding: 0; /* TO DO: поправить паддинг для .item-box*/
 }
 
-.team .item-box .photo {
+.item-box .photo {
 	width: 200px;
 	height: 200px;
 	background-color: #878787;
@@ -257,10 +263,47 @@ body {
 	display: none;
 }
 
-
+/* SKILLS */
 .skills-box {
 	background-color: #ffffff;
 	min-height: 655px;
+}
+
+.skills .title {
+	color: #3c4761;
+}
+
+.skills	.description {
+	color: #3c4761;
+	width: 568px;
+}
+
+	/*.skills item-box */
+.skills .item-box .title {
+	width: 200px;
+}
+
+.skills .item-box .photo {
+	padding: 62px;
+	font-size: 3em;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+
+.skills .item-1 .photo {
+	background: url(../images/Progress-aqua.png) no-repeat 50% 50%;
+}
+
+.skills .item-2 .photo {
+	background: url(../images/Progress-pink.png) no-repeat 50% 50%;
+}
+
+.skills .item-3 .photo {
+	background: url(../images/Progress-green.png) no-repeat 50% 50%;
+}
+
+.skills .item-4 .photo {
+	background: url(../images/Progress-orange.png) no-repeat 50% 50%;
 }
 
 .portfolio-box {
