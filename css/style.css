@@ -9,6 +9,7 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	font-size: 1em;
 }
 
 .wrapper {
@@ -16,9 +17,36 @@ body {
 	margin: 0 auto;
 	color: #000;
 	padding: 0 20px;
+	padding-top: 100px;
 	text-align: center;
 }
 
+.title {
+	display: block;
+	font-size: 2.625em;
+	line-height: 1.2em;
+	color: #f7f3eb;
+	font-weight: 700;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+.separator {
+	width: 87px;
+	height: 4px;
+	background: url("../images/separator-line.png") no-repeat;
+	margin: 0 auto;
+	margin-bottom: 21px;
+}
+
+.description {
+	margin: 0 auto;
+	color: #ffffff;
+	font-size: 1.15em;
+	line-height: 1.5em;
+	margin-bottom: 70px;
+}
 
 .header-box {
 	position: fixed;
@@ -70,19 +98,15 @@ body {
 	min-height: 596px;
 }
 
+
 .welcome {
 	padding-top: 240px;
 }
 
 .welcome .title {
 	width: 906px;
-	margin: 0 auto;
 	margin-bottom: 55px;
-	text-align: center;
-	font-size: 2.625em;
-	line-height: 1.2em;
-	color: #f7f3eb;
-	font-weight: 700;
+	text-transform: none;
 }
 
 .welcome .work-btn {
@@ -111,84 +135,62 @@ body {
 .service-box {
 	background-color: #17c2a4;
 	min-height: 747px;
-	padding-top: 100px;
-}
-
-.service .title {
-	font-size: 2.625em;
-	line-height: 0.8em;
-	font-weight: 700;
-	color: #ffffff;
-	margin: 0 auto;
-	margin-bottom: 21px; 
-	width: 474px;
-	text-align: center;
-}
-
-.service .separator {
-	width: 87px;
-	height: 4px;
-	background: url("../images/separator-line.png") no-repeat;
-	margin: 0 auto;
-	margin-bottom: 21px;
 }
 
 .service .description {
 	width: 603px;
-	margin: 0 auto;
-	text-align: center;
-	color: #ffffff;
-	font-size: 1.15em;
-	line-height: 1.5em;
-	margin-bottom: 70px;
 }
 
-.service-item {
+.service .item-box {
 	display: inline-block;
 	width: 200px;
-	padding-top: 160px;
+	padding-top: 180px;
 	text-align: center;
 	vertical-align: top;
 	margin-right: 75px;
 }
 
-.service-item .title {
-	margin: 20px 0;
-	padding: 0;
-	display: inline-block;
-	vertical-align: middle;
+.item-box .title {
 	max-width: 200px;
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 24px;
+	font-size: 1.5em;
 }
 
-.service-item .description {
+.item-box .description {
 	max-width: 200px;
 	font-size: 1em;
 }
 
-.service-item.item-1 {
+.item-box.item-1 {
 	background: url(../images/Flag-icon.png) no-repeat 50% 0;
 }
 
-.service-item.item-2 {
+.item-box.item-2 {
 	background: url(../images/Crayon-icon.png) no-repeat 50% 0;
 }
 
-.service-item.item-3 {
+.item-box.item-3 {
 	background: url(../images/Gears-icon.png) no-repeat 50% 0;
 }
 
-.service-item.item-4 {
+.item-box.item-4 {
 	background: url(../images/Rocket-icon.png) no-repeat 50% 0;
 	margin-right: 0;
 }
 
 
+
+/* OUR TEAM */
 .team-box {
 	background-color: #e7f1f8;
 	min-height: 915px;	
+}
+
+.team .title {
+	color: #3c4661;
+}
+
+.team .description {
+	color: #3c4661;
 }
 
 .skills-box {
