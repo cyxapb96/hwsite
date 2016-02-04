@@ -141,11 +141,10 @@ body {
 	width: 603px;
 }
 
-.service .item-box {
+.item-box {
 	display: inline-block;
 	width: 200px;
 	padding-top: 180px;
-	text-align: center;
 	vertical-align: top;
 	margin-right: 75px;
 }
@@ -158,8 +157,10 @@ body {
 .item-box .description {
 	max-width: 200px;
 	font-size: 1em;
+	margin-bottom: 0;
 }
 
+/* !!! TO DO: Иконки необходимо вытащить из бэкграунда в отдельный див */
 .item-box.item-1 {
 	background: url(../images/Flag-icon.png) no-repeat 50% 0;
 }
@@ -192,6 +193,70 @@ body {
 .team .description {
 	color: #3c4661;
 }
+
+.team .item-box {
+	background: none;
+	padding: 0; /* TO DO: поправить паддинг для .item-box*/
+}
+
+.team .item-box .photo {
+	width: 200px;
+	height: 200px;
+	background-color: #878787;
+	border-radius: 50%;
+	margin-bottom: 40px;
+}
+
+.team .item-box .title {
+	width: 200px;
+	font-size: 1em;
+	margin-bottom: 10px;
+
+}
+
+.team .item-box .position {
+	font-size: 0.8em;
+	color: #30bae7;
+	margin-bottom: 10px;
+}
+
+.team .item-box .description {
+	color: #3c4761;
+	padding-bottom: 25px;
+}
+
+.team .item-box .social {
+	display: inline-block;
+	text-decoration: none;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background-color: #bdd1df;
+	margin-right: 12px;
+}
+
+.team .item-box .fb {
+	background: url(../images/Facebook-Icon.png) no-repeat 50% 50% #bdd1df;
+}
+
+.team .item-box .twi {
+	background: url(../images/Twitter.png) no-repeat 50% 50% #bdd1df;
+}
+
+.team .item-box .ln {
+	background: url(../images/LinkedIn-icon.png) no-repeat 50% 50% #bdd1df;
+}
+
+.team .item-box .mail {
+	background: url(../images/Mail.png) no-repeat 50% 50% #bdd1df;
+	margin-right: 0;
+}
+
+	/* Скрываем социальные кнопочки */
+.team .item-box .hidden {
+	display: none;
+}
+
 
 .skills-box {
 	background-color: #ffffff;
