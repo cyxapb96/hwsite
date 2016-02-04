@@ -213,6 +213,22 @@ body {
 	margin-bottom: 40px;
 }
 
+.team .item-1 .photo {
+	background-image: url(../images/photo-ceo.jpg);
+}
+
+.team .item-2 .photo {
+	background-image: url(../images/photo-creative.jpg);
+}
+
+.team .item-3 .photo {
+	background-image: url(../images/photo-lead.jpg);
+}
+
+.team .item-4 .photo {
+	background-image: url(../images/photo-seo.jpeg);
+}
+
 .team .item-box .title {
 	width: 200px;
 	font-size: 1em;
