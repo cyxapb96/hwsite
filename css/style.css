@@ -1,9 +1,3 @@
-@media screen and (max-width: 1000px) {
-	.footer-box {
-	background-color: aqua;
-	}
-}
-
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,700);
 
 * {
@@ -485,8 +479,9 @@ form {
 }
 
 .input-wrapper {
-	word-spacing: 1.9em;
+	word-spacing: 1.8em;
 }
+
 input {
 	padding: 20px 25px;
 	margin-bottom: 27px;
@@ -545,4 +540,25 @@ button {
 
 .footer-menu .menu-item a:hover {
 	color: #30bae7;
+}
+
+@media all and (max-width: 865px) {
+	input {
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 550px) {
+	input {
+		width: 100%;
+	}
+	.portfolio .photo {
+	margin: 0;
+	height: auto;
+	max-width: 200px;
+	border-radius: 0;
+	background: none;
+	margin-bottom: 20px;
+	}
+	
 }
