@@ -553,12 +553,7 @@ button {
 		width: 100%;
 	}
 	.portfolio .photo {
-	margin: 0;
-	height: auto;
 	max-width: 200px;
-	border-radius: 0;
-	background: none;
-	margin-bottom: 20px;
 	}
 	
 }
